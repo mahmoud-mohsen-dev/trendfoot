@@ -6,7 +6,7 @@
 
 ## Try it Live!
 
-Check out the live app [trend-foot](https://mahmoud-mohsen-dev.github.io/trend-foot/)
+Check out the live app [trend-foot](https://trendfoot.vercel.app/)
 
 ## How to Use
 
