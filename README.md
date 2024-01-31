@@ -43,7 +43,7 @@ Integrating multiple filters.
 1. Clone this repository.
 
     ```bash
-    git clone https://github.com/mahmoud-mohsen-dev/trend-foot.git
+    git clone https://github.com/mahmoud-mohsen-dev/trendfoot.git
     ```
 
 2. Navigate to the Project Directory:
