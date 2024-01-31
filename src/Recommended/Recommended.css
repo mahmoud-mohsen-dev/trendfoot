@@ -1,0 +1,31 @@
+.recommended-container {
+    margin-top: 1.5rem;
+    margin-left: 20rem;
+}
+
+@media screen and (max-width: 950px) {
+    .recommended-container {
+        margin-left: 2.5rem;
+    }
+}
+
+.recommended-container h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #323232;
+    border-radius: 5px;
+    border: 0.6px solid #ccc;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.btn.active {
+    background-color: cornflowerblue;
+    color: white;
+}

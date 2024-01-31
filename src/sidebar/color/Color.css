@@ -1,0 +1,68 @@
+.color-title {
+    margin-top: 20px;
+}
+
+.mr {
+    margin-right: 17.5px;
+}
+
+.checkmark.all,
+.h-all:hover input ~ .all {
+    background: linear-gradient(180deg, blue, red);
+}
+
+.sidebar-label-container.h-all input:checked ~ .all {
+    background: linear-gradient(180deg, blue, red);
+    color: white;
+}
+.checkmark.black,
+.h-black:hover input ~ .black {
+    background-color: black;
+}
+
+.h-black input:checked ~ .black {
+    background-color: black;
+    color: white;
+}
+
+.checkmark.blue,
+.h-blue:hover input ~ .blue {
+    background-color: blue;
+}
+
+.h-blue input:checked ~ .blue {
+    background-color: blue;
+    color: white;
+}
+
+.checkmark.red,
+.h-red:hover input ~ .red {
+    background-color: red;
+}
+
+.h-red input:checked ~ .red {
+    background-color: red;
+    color: white;
+}
+
+.checkmark.green,
+.h-green:hover input ~ .green {
+    background-color: green;
+}
+
+.h-green input:checked ~ .green {
+    background-color: green;
+    color: white;
+}
+
+.checkmark.white,
+.h-white:hover input ~ .white {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.h-white input:checked ~ .white {
+    background-color: black;
+    color: white;
+    border: none;
+}

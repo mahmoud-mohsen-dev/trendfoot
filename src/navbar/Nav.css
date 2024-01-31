@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2rem;
+    padding: var(--padding-20);
+    position: relative;
+}
+
+nav::after {
+    content: "";
+    background-color: var(--color-2);
+    height: 2px;
+    width: calc(100% + 2rem);
+    position: absolute;
+    bottom: 0px;
+    left: -2rem;
+}
+
+.nav-container .search-input {
+    outline: none;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: var(--color-1);
+    margin-right: 20px;
+    width: 14rem;
+    position: relative;
+}
+
+nav .profile-container a {
+    cursor: default;
+}
+nav .profile-container a .nav-icons {
+    font-size: 1.5rem;
+    color: var(--color-4);
+    margin-left: 2rem;
+}
