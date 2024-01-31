@@ -1,6 +1,6 @@
 # Trend Foot 👟
 
-> A website That has different filters methods to filter products of shoe makes shoe shopping a breeze.
+> Discover the perfect pair effortlessly with Trend Foot's user-friendly filters, vibrant color choices, and top-brand selections that make shoe shopping a breeze.
 
 <img src='./public/trendfoot-preview.png'></img>
 
@@ -10,7 +10,7 @@ Check out the live app [trend-foot](https://mahmoud-mohsen-dev.github.io/trend-f
 
 ## How to Use
 
--   Browse all available shoes.
+-   Browse a diverse collection of shoes
 -   Filter by name, categories, price, colors, or brand.
 -   Combine multiple filters for a personalized search.
 
@@ -25,10 +25,10 @@ Check out the live app [trend-foot](https://mahmoud-mohsen-dev.github.io/trend-f
 
 Integrating multiple filters.
 
-**How i tackled this challenge**
+**How I tackled this challenge**
 
-1. At first made each section filters their version of data. send filters data to the app component
-2. Loop over the recieved data to filters only the occured on all filters sections
+1. At first each section filters their version of data. send filter data to the app component.
+2. Loop over the received data to filters only that occurred on all filter sections
 3. Display filtered data to the screen
 
 ## Tools Used
@@ -68,4 +68,4 @@ Integrating multiple filters.
 
     Open your web browser and go to http://localhost:3000 to see the app in action.
 
-_Now you have the "trendfoot" app up and running on your local machine._
+_Now you have the "trendfoot" app on your local machine._
